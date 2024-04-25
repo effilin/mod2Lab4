@@ -3,16 +3,104 @@
     <head>
         <title>Eva Nummer's Resume</title>
         <link rel="stylesheet" href="lab_4.css">
+        <link rel="JavaScript"href="lab4.js">
         <meta charset="UTF-8">
         <meta name="author" content="Eva Nummer">
         <meta name="keywords" content="resume, work experience, education, web developer">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        <header>
-            <h1> Eva Nummer </h1>
-            <h4>~Resume~</h4>
+
+        <header class="box flex1">
+            <div class="topper">
+                <h1 class="font"> Eva Nummer </h1>
+                <h4>effienummer@gmail.com</h4>
+            </div>
+            <div class="box topper">
+                <h3 class="font">Portfolio</h3>
+                <a href="https://github.com/effilin">My github</a><br>
+                <a href="https://effilin.github.io">About Me</a>
+            </div>
         </header>
-        <a href="https://github.com/effilin">My github</a>
+
+        <aside class="box flex1">
+            <img src="resumePic.jpg" alt="Picture of me" id="pict">
+        </aside>
+
+        <div class="main box">
+            <div class="child">
+              <h2 class="font">Education</h2>
+              <ul>
+                <li>The Institute of Data</li>
+                 <ul>
+                   <li>Software Engineering Certificate</li>
+                   <li>Hoping to earn in 2024</li>
+                 </ul>
+                <li>The University of Mary Washington</li>
+                <ul>
+                  <li>Bachelors of Science: Biology</li>
+                  <li>Graduation: 2013</li>
+               </ul>
+              </ul>
+            
+            </div>
+            <div class="child">
+              <h2 class="font">Skills</h2>
+              <ul>
+                 <li>Html: Intermediate</li>
+                 <li>Css: Intermediate</li>
+                 <li>JavaScript: beginner</li>
+              </ul>
+            </div>
+            <div class="child">
+                <h2 class="font">Work Experience</h2>
+                  <ul>
+                    <li>Stay at home Mom</li>
+                     <ul>
+                       <li>I really wanted stay at home my kids until they were in school</li>
+                     </ul>
+                  
+                    <li>Progressive Insurance Company</li>
+                      <ul>
+                         <li>Claims Adjuster: Auto</li>
+                         <li>Estimator: Auto</li>
+                          <li> Total Loss Adjuster: Auto</li>
+                       </ul>
+                   
+                    <li>Pender Veterinary Center</li>
+                       <ul>
+                          <li>Front Desk receptionist</li>
+                          <li>Call Center</li>
+                       </ul>
+                    
+                    <li>Spicewood Springs Animal Hospital</li>
+                        <ul>
+                           <li>Veterinary Technician</li>
+                           <li>Receptionist</li>
+                        </ul>
+                   
+                    <li>Pack Dog Center</li> 
+                        <ul>
+                            <li>Sales Representative</li>
+                        </ul>
+
+                    <li>Corporate account manager</li>
+                         <ul>
+                            <li>Account Manager: medium to large business</li>
+                         </ul>
+                  </ul>
+            </div>
+
+        </div>
+        <footer class="box flex1">
+            <p>&copy; Eva Nummer: 2024</p>
+            <p id="tYou">Thank You!</p>
+
+        </footer>
+      
     </body>
 </html>
