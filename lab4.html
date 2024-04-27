@@ -29,13 +29,15 @@
             </div>
         </header>
 
-        <aside class="box flexSide">
+        <aside class="box flexSide" id="sideBar">
+          <a href="javascript:void(0)" class="closebtn box" id="close" onclick="closePict()">close</a>
             <img src="resume_me.jpg" alt="Picture of me" id="pict">
             <p id="middle">Please call me Effie!</p>
         </aside>
 
         <div class="main box flex2">
             <div class="child">
+              <button class="openbtn" onclick="sideOpen()">My Photo</button>
               <h2 class="font">Education</h2>
               <ul>
                 <li>The Institute of Data</li>
@@ -91,7 +93,7 @@
                             <li>Sales Representative</li>
                         </ul>
 
-                    <li>Corporate account manager</li>
+                    <li>CDW</li>
                          <ul>
                             <li>Account Manager: medium to large business</li>
                          </ul>
