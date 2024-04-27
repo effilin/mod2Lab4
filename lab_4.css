@@ -21,6 +21,10 @@ body {
     width: 6vw;
     margin-left: 25vw;
 }
+#github {
+    height: 1vw;
+    width: 1vw;
+}
 .flexSide {
     display: flex;
     flex-direction: column;
